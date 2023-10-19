@@ -1,5 +1,6 @@
 -- Plugins
 require('plugins')
+require('config__treesitter')
 require('config__ale')        -- ALE Linter options
 require('config__gitsigns')   -- Git status and in-app commits
 require('config__telescope')  -- Telescope TUI
@@ -7,7 +8,11 @@ require('config__neovide')    -- Neovide/MacOS functionality
 require('config__lualine')
 
 -- Themes/Colors layout
-vim.cmd [[colo PaperColor]]
+require('tokyonight').setup({
+  style = 'night',
+  keywords = { italic = false},
+})
+vim.cmd [[colo tokyonight]]
 
 -- Window behaviour
 vim.opt.splitright = true   -- Open vertical splits to RHS

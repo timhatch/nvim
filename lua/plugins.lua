@@ -7,11 +7,7 @@ Plug 'nvim-lua/plenary.nvim'
 Plug('nvim-telescope/telescope.nvim', { tag = '0.1.4' })
 
 -- Syntax highlighting
-Plug 'hit9/vim-go-syntax'
-Plug 'othree/html5.vim'
-Plug 'pangloss/vim-javascript'
-Plug 'mxw/vim-jsx'
-Plug 'styled-components/vim-styled-components'
+Plug 'nvim-treesitter/nvim-treesitter'
 
 -- CSV Manipulation
 Plug 'chrisbra/csv.vim'
@@ -26,8 +22,8 @@ Plug 'lewis6991/gitsigns.nvim'
 
 -- Color scheme
 Plug 'nvim-lualine/lualine.nvim'
-Plug 'NLKNguyen/papercolor-theme'
+Plug 'folke/tokyonight.nvim'
 
 vim.call('plug#end')
 
-require('nvim-autopairs').setup {}
+require('nvim-autopairs').setup()
