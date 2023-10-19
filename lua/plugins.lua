@@ -2,10 +2,6 @@ local Plug = vim.fn['plug#']
 
 vim.call('plug#begin', '~/.config/nvim/plugged')
 
--- Color scheme
-Plug 'nvim-lualine/lualine.nvim'
-Plug 'NLKNguyen/papercolor-theme'
-
 -- Fuzzy finders
 Plug 'nvim-lua/plenary.nvim'
 Plug('nvim-telescope/telescope.nvim', { tag = '0.1.4' })
@@ -25,6 +21,10 @@ Plug 'windwp/nvim-autopairs'
 
 -- Git
 Plug 'lewis6991/gitsigns.nvim'
+
+-- Color scheme
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'NLKNguyen/papercolor-theme'
 
 vim.call('plug#end')
 
