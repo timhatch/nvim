@@ -1,1 +1,6 @@
+# Ignore installed plugins
 plugged
+
+# Ignore metadata
+*.swp
+.DS_Store

@@ -4,7 +4,6 @@ require('config__ale')        -- ALE Linter options
 require('config__gitsigns')   -- Git status and in-app commits
 require('config__telescope')  -- Telescope TUI
 require('config__neovide')    -- Neovide/MacOS functionality
--- require('config__goneovim')   -- goneovim/MacOS functionality
 require('config__lualine')
 
 -- Themes/Colors layout
