@@ -12,6 +12,8 @@ Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'mxw/vim-jsx'
 Plug 'styled-components/vim-styled-components'
+
+-- CSV Manipulation
 Plug 'chrisbra/csv.vim'
 
 -- Linting
